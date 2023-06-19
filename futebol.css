@@ -7,13 +7,14 @@
 
 .button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    color: black;
+    padding: 19px 90px;
+    background-color: rgba(95, 201, 8, 0.692);
+    color: rgb(255, 255, 255);
     border-radius:4px;
     border: none;
-    margin-right: 100px;
-
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
