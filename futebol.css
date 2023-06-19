@@ -6,22 +6,28 @@
 }
 
 .button {
+    border-radius: 57px;
+    background: linear-gradient(145deg, #39b367, #309656);
+    box-shadow:  5px 5px 13px #33a25d,
+                 -5px -5px 13px #37ac63;
     display: inline-block;
     padding: 19px 90px;
-    background-color: rgba(95, 201, 8, 0.692);
     color: rgb(255, 255, 255);
-    border-radius:4px;
     border: none;
     margin-right: 10px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
 body {
+    background-image: linear-gradient(black,rgb(53, 53, 53));
+}
+body {
+    
     background-image: url(imagemdefundo.jpg);
     background-size: cover;
+
 }
+
 #tituloprincipal{
     font-size: 150px;
     text-align: center;
@@ -39,3 +45,15 @@ p{
     color:antiquewhite;
     text-align: center;
 }
+.header1{
+    background-color: aliceblue;
+    text-align: left;
+    
+}
+.p1{
+    text-align: left;
+    background-color: #000000;
+    padding: 10px 220px;
+    position: fixed;
+}
+
