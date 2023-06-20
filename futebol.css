@@ -6,7 +6,6 @@
 }
 
 .button {
-    button {
         --glow-color: #39b367;
         --glow-spread-color: #39b367;
         --enhanced-glow-color: rgb(231, 206, 255);
