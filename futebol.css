@@ -62,3 +62,22 @@ body {
     margin-right: 900px;
     margin-top: 120px;
   }
+ #paragrafo2{
+    background-image:linear-gradient( 0deg, rgb(10, 248, 34), #8cea9f ) ;
+    font-size: 20px;
+    color:rgb(15, 9, 1);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 900px;
+    margin-right: 60px;
+  }
+  h1{
+
+    color: antiquewhite;
+    text-align: center;
+  }
+  h2{
+
+    color: antiquewhite;
+    text-align: center;
+  }
