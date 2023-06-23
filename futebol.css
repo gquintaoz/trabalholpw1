@@ -1,26 +1,83 @@
-.button-alinhamento{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.b1:hover{
+    scale: 1.1;
+    transition: 0.3s;
+
 }
 
-.button {
-        border-radius: 57px;
-    background: linear-gradient(145deg, #39b367, #309656);
-    box-shadow:  5px 5px 13px #33a25d,
-                 -5px -5px 13px #37ac63;
+.b2:hover{
+    scale: 1.1;
+    transition: 0.3s;
+
+}
+.b3:hover{
+    scale: 1.1;
+    transition: 0.3s;
+
+}
+.b4:hover{
+    scale: 1.1;
+    transition: 0.3s;
+
+}
+
+.b1{
+    border-radius: 60px;
+    background: #23232e;
     display: inline-block;
     padding: 19px 90px;
     color: rgb(255, 255, 255);
     border: none;
     margin-right: 10px;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    margin-left: 300px;
+    margin-top: 100px;
+    scale: 1.0;
 }
-body {
-    background-image: linear-gradient(black,rgb(53, 53, 53));
+.b2{
+    border-radius: 57px;
+    background: #23232e;
+    display: inline-block;
+    padding: 19px 90px;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 320px;
+    margin-top: 200px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    scale: 1.0;
 }
+.b3{
+    border-radius: 57px;
+    background: #23232e;
+    display: inline-block;
+    padding: 19px 90px;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 320px;
+    margin-top: 220px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    scale: 1.0;
+}
+.b4{
+    border-radius: 57px;
+    background: #23232e;
+    display: inline-block;
+    padding: 19px 90px;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 230px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    scale: 1.0;
+}
+
+
 body {
     
     background-image: url(imagemdefundo.jpg);
@@ -32,7 +89,6 @@ body {
     font-size: 150px;
     text-align: center;
     color: aliceblue;
-
 }
 #subtituloprincipal{
     color: aliceblue;
@@ -40,44 +96,80 @@ body {
     font-size: 30px;
 
 }
-
-.header1{
-    background-color: aliceblue;
-    text-align: left;
-    
-}
-.p1{
-    text-align: left;
-    background-color: #000000;
-    padding: 10px 220px;
-    position: fixed;
-}
-  p {   
-     font-size: 20px;
-    color:rgb(15, 9, 1);
-    text-align: center;
-    background-image: linear-gradient( 0deg, rgb(10, 248, 34), #8cea9f );
-    border-radius: 20px;
-    margin-left: 60px;
-    margin-right: 900px;
-    margin-top: 120px;
-  }
- #paragrafo2{
-    background-image:linear-gradient( 0deg, rgb(10, 248, 34), #8cea9f ) ;
+p{
     font-size: 20px;
-    color:rgb(15, 9, 1);
+    color:antiquewhite;
     text-align: center;
-    border-radius: 20px;
-    margin-left: 900px;
-    margin-right: 60px;
-  }
-  h1{
+}
 
-    color: antiquewhite;
-    text-align: center;
-  }
-  h2{
 
+
+.pp{
+    margin-top: -700px;
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 20px;
     color: antiquewhite;
-    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 1000px;
+
+}
+.creditos{
+    margin-bottom: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+a:hover {
+    opacity: 0.7;
+}
+  
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
   }
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+ }
+
+  
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+  
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+  
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+  
+
