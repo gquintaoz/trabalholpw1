@@ -80,7 +80,9 @@
     scale: 1.0;
 }
 .body2{
-    background-color: #23232ec7;
+    background-image: url(wallpaperbetter.com_1920x1080.jpg);
+    background-size: cover;
+    background-image: no-repeat;
 }
 
 .body-menu {
@@ -104,10 +106,10 @@
 #tituloprincipal2{
     font-size: 120px;
     text-align: center;
-    color: rgb(25, 36, 46);
+    color: rgb(255, 255, 255);
 }
 #subtituloprincipal2{
-    color: rgb(25, 36, 46);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
     margin-top:  100PX;
