@@ -157,3 +157,21 @@ body{
       font-size: 36px;
     }
   }
+  #voltar-topo {
+    background-color: white;
+    border-radius: 20%;
+    border: 3px white;
+    font-size: 35px;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: sticky;
+    bottom: 20px;
+    left: 0;
+    margin-left: 3%;
+    margin-top: 50px;
+    color: black;
+  }
