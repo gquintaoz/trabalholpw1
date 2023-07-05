@@ -136,6 +136,10 @@
 
 
 }
+.pp::first-letter{
+    content: '';
+    font-size: 80px;
+}
 .creditos{
     margin-bottom: 0px;
     text-align: left;
